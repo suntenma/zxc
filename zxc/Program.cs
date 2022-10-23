@@ -49,7 +49,10 @@ namespace zxc
         }
         public static void EnterNum()
         {
-
+            Console.WriteLine("Ввод числа a:");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ввод числа b:");
+            b = Convert.ToDouble(Console.ReadLine());
         }
         public static void AddNum()
         {
