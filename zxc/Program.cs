@@ -57,7 +57,10 @@ namespace zxc
         }
         public static void SubNum()
         {
-
+            double c = a - b;
+            Console.WriteLine($"a - b = {c}");
+            double c2 = b - a;
+            Console.WriteLine($"b - a = {c2}");
         }
         public static void DivNum()
         {
