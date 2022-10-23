@@ -61,7 +61,10 @@ namespace zxc
         }
         public static void DivNum()
         {
-
+            double c = a / b;
+            Console.WriteLine($"a : b = {c}");
+            double c2 = b / a;
+            Console.WriteLine($"b : a = {c2}");
         }
         public static void ExpNum()
         {
