@@ -53,7 +53,8 @@ namespace zxc
         }
         public static void AddNum()
         {
-
+            double c = a + b;
+            Console.WriteLine($"a + b = {c}");
         }
         public static void SubNum()
         {
