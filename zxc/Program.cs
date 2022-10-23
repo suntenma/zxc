@@ -65,7 +65,10 @@ namespace zxc
         }
         public static void ExpNum()
         {
-
+            double c = Math.Pow(a, b);
+            Console.WriteLine($"a^b = {c}");
+            double c2 = Math.Pow(b, a);
+            Console.WriteLine($"b^a = {c2}");
         }
     }
 }
